@@ -5,7 +5,7 @@ if (!empty($_SERVER['HTTPS']) && ('on' == $_SERVER['HTTPS'])) {
     $uri = 'http://';
 }
 $uri .= $_SERVER['HTTP_HOST'];
-header('Location: '.$uri.'/session/create.php');
+header('Location: '.$uri.'/php_sessions/create.php');
 exit;
 ?>
 Something is wrong with the XAMPP installation :-(
